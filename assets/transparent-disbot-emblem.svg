@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 540" role="img" aria-labelledby="name desc">
+<title id="name">ARB DisBot</title>
+<desc id="desc">Official blue shield identity with a transparent background, integrated into the page.</desc>
+<defs>
+<linearGradient id="edge" x1=".05" y1="0" x2=".9" y2="1"><stop stop-color="#6bf1ff"/><stop offset=".23" stop-color="#198bff"/><stop offset=".66" stop-color="#1252e8"/><stop offset="1" stop-color="#071a60"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#43eaff"/><stop offset=".47" stop-color="#1e8fff"/><stop offset="1" stop-color="#0848d7"/></linearGradient>
+<linearGradient id="facet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#63f9ff"/><stop offset=".57" stop-color="#159aff"/><stop offset="1" stop-color="#0958d9"/></linearGradient>
+<filter id="shadow" x="-65%" y="-65%" width="230%" height="250%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0a83ff" flood-opacity=".85"/></filter>
+<filter id="smallglow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<g filter="url(#shadow)">
+  <path d="M285 24L463 104V238C459 352 378 424 285 465C192 424 111 352 107 238V104Z" fill="#071945" stroke="url(#edge)" stroke-width="10"/>
+  <path d="M285 24V463C195 423 113 354 111 238V103Z" fill="url(#facet)" opacity=".95"/>
+  <path d="M285 24L459 103V236C458 349 375 423 285 463Z" fill="url(#metal)" opacity=".92"/>
+  <path d="M285 85L405 140V238C405 317 353 365 285 401C216 365 166 317 165 238V140Z" fill="#07183a" stroke="#4cbfff" stroke-width="7"/>
+  <path d="M285 148L348 178V234C348 277 322 305 285 329C248 305 222 277 222 234V178Z" fill="#0d66e8"/>
+  <path d="M285 148V329C248 305 222 277 222 234V178Z" fill="#16c9ff" opacity=".92"/>
+  <path d="M141 119L267 60" fill="none" stroke="#b2faff" stroke-width="8" opacity=".73" stroke-linecap="round"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="900" text-anchor="middle" paint-order="stroke" stroke="#09204b" stroke-width="6" stroke-linejoin="round">
+<text x="285" y="500" font-size="65" fill="#f5fbff" letter-spacing="2">ARB</text>
+<text x="285" y="536" font-size="41" fill="#eafaff" letter-spacing=".5">DisBot</text>
+</g>
+</svg>
