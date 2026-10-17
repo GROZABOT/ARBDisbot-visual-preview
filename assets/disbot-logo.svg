@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+<title id="title">ARB DisBot emblem</title><desc id="desc">Neon blue D shield with a friendly robot face.</desc>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="42%" r="72%"><stop offset="0" stop-color="#10245d"/><stop offset=".48" stop-color="#07122f"/><stop offset="1" stop-color="#020718"/></radialGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".22" stop-color="#c6eeff"/><stop offset=".48" stop-color="#8aaeff"/><stop offset=".72" stop-color="#7858ff"/><stop offset="1" stop-color="#49e7ff"/></linearGradient>
+  <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5df4ff"/><stop offset=".45" stop-color="#5878ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+<rect width="1000" height="1000" rx="120" fill="url(#bg)"/>
+<circle cx="500" cy="485" r="360" fill="none" stroke="#2349bf" stroke-width="28" opacity=".28" filter="url(#soft)"/>
+<path d="M500 92 786 210v278c0 203-116 334-286 420C330 822 214 691 214 488V210Z" fill="#071435" stroke="url(#shield)" stroke-width="26" filter="url(#glow)"/>
+<path d="M500 142 738 240v244c0 169-94 281-238 359-144-78-238-190-238-359V240Z" fill="#09183e" stroke="#4c83ff" stroke-width="8" opacity=".95"/>
+<g fill="none" stroke-linecap="round" filter="url(#glow)">
+  <path d="M95 398h110l58 58" stroke="#56e9ff" stroke-width="12"/><circle cx="84" cy="398" r="15" stroke="#56e9ff" stroke-width="9"/>
+  <path d="M118 535h95l51-51" stroke="#7c6cff" stroke-width="11"/><circle cx="103" cy="535" r="14" stroke="#7c6cff" stroke-width="8"/>
+  <path d="M905 398H795l-58 58" stroke="#56e9ff" stroke-width="12"/><circle cx="916" cy="398" r="15" stroke="#56e9ff" stroke-width="9"/>
+  <path d="M882 535h-95l-51-51" stroke="#7c6cff" stroke-width="11"/><circle cx="897" cy="535" r="14" stroke="#7c6cff" stroke-width="8"/>
+</g>
+<text x="500" y="700" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="650" font-weight="900" fill="url(#metal)" stroke="#6877ff" stroke-width="10" paint-order="stroke" filter="url(#glow)">D</text>
+<g transform="translate(500 500)" filter="url(#glow)">
+  <rect x="-145" y="-80" width="290" height="205" rx="82" fill="#07132d" stroke="url(#metal)" stroke-width="18"/>
+  <rect x="-118" y="-50" width="236" height="145" rx="60" fill="#020817" stroke="#263e78" stroke-width="5"/>
+  <rect x="-72" y="-3" width="36" height="70" rx="18" fill="#c7ffff" stroke="#58dcff" stroke-width="8"/>
+  <rect x="36" y="-3" width="36" height="70" rx="18" fill="#c7ffff" stroke="#58dcff" stroke-width="8"/>
+  <path d="M0-80v-46" stroke="#b8e9ff" stroke-width="18" stroke-linecap="round"/><circle cy="-143" r="22" fill="#dfffff" stroke="#5cecff" stroke-width="10"/>
+</g>
+<path d="M296 771c120 82 288 91 409 0" fill="none" stroke="#53dfff" stroke-width="9" opacity=".42" filter="url(#glow)"/>
+</svg>
